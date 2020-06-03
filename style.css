@@ -1,0 +1,22 @@
+body {
+  background-image: url("images/campo2.jpg");
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+img {
+width: 150px;
+-webkit-animation: volar 15s infinite;
+}
+
+@-webkit-keyframes volar {
+  0% {
+    margin-left: 0px;
+  }
+  100%{
+    margin-top: 500px;
+    margin-left: 800px;
+    -webkit-transform: rotateY();
+  }
+}
